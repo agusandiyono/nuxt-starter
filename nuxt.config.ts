@@ -51,7 +51,7 @@ export default defineNuxtConfig({
     ],
     nuxtSanctumAuth: {
         token: true, // set true to use jwt-token auth instead of cookie. default is false
-        baseUrl: 'http://content.solitekids.com/api/v1',
+        baseUrl: 'https://content.solitekids.com/api/v1',
         endpoints: {
           csrf: '/sanctum/csrf-cookie',
           login: '/login',
