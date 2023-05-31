@@ -59,8 +59,8 @@ async function login() {
   try {
     await $sanctumAuth.login(
       {
-        email: email,
-        password: password,
+        email: email.value,
+        password: password.value,
       },
       // optional callback function
       (data) => {
